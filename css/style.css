@@ -1676,3 +1676,409 @@ a {
     }
 
 }
+/* =====================================================
+   PROFILE PAGE - FINAL FIX
+===================================================== */
+
+
+/* ---------- PAGE HEADER ---------- */
+
+body .page-header {
+    width: 100%;
+    padding: 90px 20px 80px !important;
+    text-align: center !important;
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(190, 228, 246, 0.45),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 70%,
+            rgba(220, 241, 250, 0.65),
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #f5fbff,
+            #eaf6fd
+        ) !important;
+}
+
+body .page-header p {
+    margin: 0 0 10px !important;
+    color: #69afd5 !important;
+    font-size: 12px !important;
+    letter-spacing: 4px !important;
+    text-align: center !important;
+}
+
+body .page-header h1 {
+    margin: 0 0 10px !important;
+    color: #23415f !important;
+    font-size: clamp(36px, 5vw, 55px) !important;
+    line-height: 1.3 !important;
+    text-align: center !important;
+}
+
+body .page-header span {
+    color: #7892a6 !important;
+    font-family: 'Playfair Display', serif !important;
+    font-size: 17px !important;
+    font-style: italic !important;
+}
+
+
+/* ---------- PROFILE SECTION ---------- */
+
+body main .profile-section {
+    width: min(1100px, 90%) !important;
+    margin: 0 auto !important;
+    padding: 100px 0 !important;
+
+    display: grid !important;
+    grid-template-columns: 360px minmax(0, 1fr) !important;
+
+    gap: 80px !important;
+
+    align-items: center !important;
+}
+
+
+/* ---------- PROFILE PHOTO ---------- */
+
+body main .profile-section .profile-photo {
+    position: relative !important;
+    width: 100% !important;
+    max-width: 360px !important;
+    margin: 0 auto !important;
+}
+
+body main .profile-section .profile-photo::before {
+    content: "" !important;
+
+    position: absolute !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    left: 16px !important;
+    top: 16px !important;
+
+    border: 2px solid #b9dff2 !important;
+    border-radius: 26px !important;
+
+    z-index: 0 !important;
+}
+
+body main .profile-section .profile-photo img {
+    position: relative !important;
+    z-index: 2 !important;
+
+    display: block !important;
+
+    width: 100% !important;
+    height: 450px !important;
+
+    object-fit: cover !important;
+
+    border-radius: 26px !important;
+
+    box-shadow:
+        0 20px 45px rgba(67, 130, 168, 0.14) !important;
+}
+
+
+/* ---------- PROFILE CONTENT ---------- */
+
+body main .profile-section .profile-content {
+    width: 100% !important;
+    max-width: 650px !important;
+}
+
+body main .profile-section .blue-label {
+    margin-bottom: 10px !important;
+
+    color: #6aaed3 !important;
+
+    font-size: 11px !important;
+    font-weight: 500 !important;
+
+    letter-spacing: 4px !important;
+}
+
+body main .profile-section .profile-content h2 {
+    margin: 0 0 22px !important;
+
+    color: #23415f !important;
+
+    font-size: clamp(30px, 4vw, 43px) !important;
+
+    line-height: 1.45 !important;
+}
+
+body main .profile-section .profile-content h2 span {
+    color: #62acd4 !important;
+}
+
+body main .profile-section .profile-content > p {
+    margin-bottom: 17px !important;
+
+    color: #718798 !important;
+
+    font-size: 15px !important;
+
+    line-height: 2 !important;
+}
+
+
+/* ---------- PERSONAL INFORMATION ---------- */
+
+body main .profile-section .personal-info {
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    gap: 12px !important;
+
+    margin-top: 28px !important;
+}
+
+body main .profile-section .personal-info > div {
+    padding: 16px 18px !important;
+
+    background: rgba(255, 255, 255, 0.9) !important;
+
+    border: 1px solid #dcecf6 !important;
+
+    border-radius: 14px !important;
+
+    transition: all 0.3s ease !important;
+}
+
+body main .profile-section .personal-info > div:hover {
+    transform: translateY(-4px) !important;
+
+    box-shadow:
+        0 12px 30px rgba(75, 139, 176, 0.10) !important;
+
+    border-color: #c2e3f2 !important;
+}
+
+body main .profile-section .personal-info span {
+    display: block !important;
+
+    margin-bottom: 2px !important;
+
+    color: #8ca0af !important;
+
+    font-size: 11px !important;
+}
+
+body main .profile-section .personal-info strong {
+    color: #35536d !important;
+
+    font-size: 14px !important;
+
+    font-weight: 500 !important;
+}
+
+
+/* =====================================================
+   PERSONALITY
+===================================================== */
+
+body .quick-section {
+    width: 100% !important;
+
+    padding: 100px 0 !important;
+
+    background:
+        linear-gradient(
+            180deg,
+            #eef9fe 0%,
+            #eaf7fd 100%
+        ) !important;
+}
+
+body .quick-section .section-container {
+    width: min(1100px, 90%) !important;
+
+    margin: 0 auto !important;
+}
+
+body .quick-section .section-heading {
+    text-align: center !important;
+
+    margin-bottom: 55px !important;
+}
+
+body .quick-section .section-heading span {
+    display: block !important;
+
+    color: #6aaed3 !important;
+
+    font-size: 11px !important;
+
+    letter-spacing: 4px !important;
+}
+
+body .quick-section .section-heading h2 {
+    margin-top: 8px !important;
+
+    color: #23415f !important;
+
+    font-size: 38px !important;
+}
+
+
+/* ---------- CARD GRID ---------- */
+
+body .quick-section .quick-grid {
+    width: 100% !important;
+
+    display: grid !important;
+
+    grid-template-columns:
+        repeat(4, minmax(0, 1fr)) !important;
+
+    gap: 18px !important;
+}
+
+body .quick-section .quick-card {
+    min-height: 250px !important;
+
+    padding: 28px !important;
+
+    background: rgba(255,255,255,0.95) !important;
+
+    border: 1px solid #d8ecf7 !important;
+
+    border-radius: 20px !important;
+
+    box-shadow:
+        0 8px 25px rgba(72, 137, 174, 0.05) !important;
+
+    transition: all 0.35s ease !important;
+}
+
+body .quick-section .quick-card:hover {
+    transform: translateY(-8px) !important;
+
+    box-shadow:
+        0 20px 40px rgba(72, 137, 174, 0.13) !important;
+}
+
+body .quick-section .quick-number {
+    color: #c1e1f0 !important;
+
+    font-size: 20px !important;
+
+    font-family: 'Playfair Display', serif !important;
+}
+
+body .quick-section .quick-icon {
+    width: 48px !important;
+    height: 48px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    margin: 20px 0 !important;
+
+    border-radius: 14px !important;
+
+    background: #edf8fd !important;
+
+    color: #64aacf !important;
+
+    font-size: 21px !important;
+}
+
+body .quick-section .quick-card h3 {
+    margin-bottom: 8px !important;
+
+    color: #294963 !important;
+
+    font-size: 18px !important;
+}
+
+body .quick-section .quick-card p {
+    color: #7b8f9e !important;
+
+    font-size: 13px !important;
+
+    line-height: 1.8 !important;
+}
+
+body .quick-section .quick-arrow {
+    color: #a9d9ee !important;
+}
+
+
+/* =====================================================
+   PROFILE MOBILE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    body main .profile-section {
+        grid-template-columns: 280px minmax(0, 1fr) !important;
+
+        gap: 45px !important;
+    }
+
+    body .quick-section .quick-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    body .page-header {
+        padding: 65px 20px !important;
+    }
+
+    body main .profile-section {
+        width: 90% !important;
+
+        grid-template-columns: 1fr !important;
+
+        gap: 55px !important;
+
+        padding: 70px 0 !important;
+    }
+
+    body main .profile-section .profile-photo {
+        width: min(300px, 90%) !important;
+
+        margin: 0 auto !important;
+    }
+
+    body main .profile-section .profile-photo img {
+        height: 380px !important;
+    }
+
+    body main .profile-section .profile-content {
+        max-width: 100% !important;
+    }
+
+    body main .profile-section .personal-info {
+        grid-template-columns: 1fr !important;
+    }
+
+    body .quick-section {
+        padding: 70px 0 !important;
+    }
+
+    body .quick-section .quick-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+}
