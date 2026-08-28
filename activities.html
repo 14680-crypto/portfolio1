@@ -4,16 +4,30 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="ผลงานและกิจกรรม Portfolio"
+    >
 
     <title>ผลงานและกิจกรรม | Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -21,17 +35,26 @@
 <body>
 
 
-    <!-- Navigation -->
+    <!-- =================================
+         NAVIGATION
+    ================================== -->
 
-    <nav class="navbar">
+    <header class="navbar">
 
         <div class="nav-container">
 
             <a href="index.html" class="logo">
+
+                <span class="logo-symbol">
+                    ✦
+                </span>
+
                 PORTFOLIO
+
             </a>
 
-            <div class="nav-links">
+
+            <nav class="nav-menu">
 
                 <a href="index.html">
                     หน้าหลัก
@@ -42,7 +65,7 @@
                 </a>
 
                 <a href="education.html">
-                    การศึกษา
+                    ประวัติ
                 </a>
 
                 <a href="activities.html" class="active">
@@ -53,46 +76,101 @@
                     ติดต่อ
                 </a>
 
-            </div>
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="เปิดเมนู"
+            >
+                ☰
+            </button>
 
         </div>
 
-    </nav>
+    </header>
 
 
-    <!-- Header -->
+
+    <!-- =================================
+         PAGE HEADER
+    ================================== -->
 
     <section class="page-header">
 
-        <p>MY PORTFOLIO</p>
+        <p>
+            MY PORTFOLIO
+        </p>
 
         <h1>
             ผลงานและกิจกรรม
         </h1>
 
         <span>
-            Activities & Achievements
+            Activities & Experiences
         </span>
 
     </section>
 
 
-    <!-- Activities -->
 
-    <section class="activities section">
-
-        <div class="activity-grid">
+    <main>
 
 
-            <!-- Activity 1 -->
+        <!-- =================================
+             INTRO
+        ================================== -->
+
+        <section class="section">
+
+
+            <div class="section-heading center">
+
+                <span>
+                    MY EXPERIENCES
+                </span>
+
+                <h2>
+                    ประสบการณ์ที่ภาคภูมิใจ
+                </h2>
+
+            </div>
+
+
+            <div class="intro-box">
+
+                <p>
+
+                    ผลงานและกิจกรรมเหล่านี้
+                    เป็นส่วนหนึ่งของประสบการณ์
+                    ที่ทำให้ฉันได้เรียนรู้ทั้งด้านวิชาการ
+                    การทำงานร่วมกับผู้อื่น
+                    ความรับผิดชอบ และการพัฒนาตนเอง
+
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             ACTIVITY 01
+        ================================== -->
+
+        <section class="section">
+
 
             <article class="activity-card">
+
 
                 <div class="activity-image">
 
                     <img
                         src="images/activity1.jpg"
-                        alt="กิจกรรมที่ 1"
+                        alt="ภาพกิจกรรมที่ 1"
                     >
 
                     <span>
@@ -109,33 +187,73 @@
                     </p>
 
                     <h2>
-                        ชื่อกิจกรรม / ผลงาน
+                        ชื่อกิจกรรมที่ 1
                     </h2>
 
                     <span>
                         ปี 2568
                     </span>
 
+
                     <p class="description">
+
+                        <strong>
+                            บทบาทของฉัน:
+                        </strong>
+
+                        อธิบายหน้าที่
+                        หรือบทบาทที่ได้รับในกิจกรรมนี้
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            รายละเอียด:
+                        </strong>
+
                         เขียนรายละเอียดเกี่ยวกับกิจกรรม
-                        สิ่งที่ได้เรียนรู้ และหน้าที่ของเรา
-                        ในกิจกรรมนี้
+                        สิ่งที่ได้ทำ และกระบวนการทำงาน
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            สิ่งที่ได้รับ:
+                        </strong>
+
+                        ได้เรียนรู้การทำงานร่วมกับผู้อื่น
+                        ฝึกความรับผิดชอบ
+                        และพัฒนาทักษะการแก้ปัญหา
+
                     </p>
 
                 </div>
 
             </article>
 
+        </section>
 
-            <!-- Activity 2 -->
+
+
+        <!-- =================================
+             ACTIVITY 02
+        ================================== -->
+
+        <section class="section">
+
 
             <article class="activity-card">
+
 
                 <div class="activity-image">
 
                     <img
                         src="images/activity2.jpg"
-                        alt="กิจกรรมที่ 2"
+                        alt="ภาพกิจกรรมที่ 2"
                     >
 
                     <span>
@@ -152,33 +270,74 @@
                     </p>
 
                     <h2>
-                        ชื่อกิจกรรม / ผลงาน
+                        ชื่อกิจกรรมที่ 2
                     </h2>
 
                     <span>
                         ปี 2568
                     </span>
 
+
                     <p class="description">
-                        เขียนรายละเอียดเกี่ยวกับกิจกรรม
-                        สิ่งที่ได้เรียนรู้ และประสบการณ์
-                        ที่ได้รับจากกิจกรรมนี้
+
+                        <strong>
+                            บทบาทของฉัน:
+                        </strong>
+
+                        อธิบายหน้าที่
+                        หรือบทบาทที่ได้รับในกิจกรรมนี้
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            รายละเอียด:
+                        </strong>
+
+                        อธิบายสิ่งที่ได้ทำ
+                        ปัญหาที่พบ
+                        และวิธีที่ใช้ในการแก้ไข
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            สิ่งที่ได้รับ:
+                        </strong>
+
+                        ได้พัฒนาความคิดสร้างสรรค์
+                        การสื่อสาร
+                        และการทำงานอย่างเป็นระบบ
+
                     </p>
 
                 </div>
 
             </article>
 
+        </section>
 
-            <!-- Activity 3 -->
+
+
+        <!-- =================================
+             ACTIVITY 03
+        ================================== -->
+
+        <section class="section">
+
 
             <article class="activity-card">
+
 
                 <div class="activity-image">
 
                     <img
                         src="images/activity3.jpg"
-                        alt="กิจกรรมที่ 3"
+                        alt="ภาพกิจกรรมที่ 3"
                     >
 
                     <span>
@@ -195,33 +354,120 @@
                     </p>
 
                     <h2>
-                        ชื่อกิจกรรม / ผลงาน
+                        ชื่อกิจกรรมที่ 3
                     </h2>
 
                     <span>
                         ปี 2569
                     </span>
 
+
                     <p class="description">
-                        เขียนรายละเอียดเกี่ยวกับกิจกรรม
-                        สิ่งที่ได้เรียนรู้ และทักษะที่ได้รับ
+
+                        <strong>
+                            บทบาทของฉัน:
+                        </strong>
+
+                        อธิบายหน้าที่และความรับผิดชอบ
+                        ที่ได้รับจากกิจกรรมนี้
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            รายละเอียด:
+                        </strong>
+
+                        เขียนรายละเอียดของกิจกรรม
+                        และสิ่งที่ได้ลงมือทำจริง
+
+                    </p>
+
+
+                    <p class="description">
+
+                        <strong>
+                            สิ่งที่ได้รับ:
+                        </strong>
+
+                        อธิบายทักษะ ความรู้
+                        และประสบการณ์ที่สามารถนำไปต่อยอดได้
+
                     </p>
 
                 </div>
 
             </article>
 
+        </section>
+
+
+
+        <!-- =================================
+             REFLECTION
+        ================================== -->
+
+        <section class="quote-section">
+
+            <div class="quote-container">
+
+                <div class="quote-symbol">
+                    “
+                </div>
+
+                <p>
+
+                    ทุกกิจกรรมไม่ได้ให้เพียงผลงาน
+                    แต่ยังมอบประสบการณ์
+                    ที่ทำให้ฉันรู้จักตัวเอง
+                    และพร้อมพัฒนาตัวเองให้ดีขึ้น
+
+                </p>
+
+                <span>
+                    EXPERIENCE • LEARNING • GROWTH
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <span class="logo-symbol">
+                    ✦
+                </span>
+
+                PORTFOLIO
+
+            </div>
+
+            <p>
+                Activities & Experiences
+            </p>
+
+            <div class="footer-line"></div>
+
+            <small>
+                © 2026 Portfolio by ชื่อของคุณ
+            </small>
 
         </div>
-
-    </section>
-
-
-    <footer>
-
-        <p>
-            © 2026 Portfolio by ชื่อของคุณ
-        </p>
 
     </footer>
 
