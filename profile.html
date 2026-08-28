@@ -4,42 +4,69 @@
 <head>
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="ประวัติส่วนตัวและข้อมูลเกี่ยวกับตัวฉัน Portfolio"
+    >
 
     <title>ประวัติส่วนตัว | Portfolio</title>
 
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 
 <body>
 
 
-    <!-- Navigation -->
+    <!-- =================================
+         NAVIGATION
+    ================================== -->
 
-    <nav class="navbar">
+    <header class="navbar">
 
         <div class="nav-container">
 
+
             <a href="index.html" class="logo">
-                PORTFOLIO
+
+                <span class="logo-symbol">✦</span>
+
+                <span>PORTFOLIO</span>
+
             </a>
 
-            <div class="nav-links">
 
-                <a href="index.html">หน้าหลัก</a>
+            <nav class="nav-menu">
+
+                <a href="index.html">
+                    หน้าหลัก
+                </a>
 
                 <a href="profile.html" class="active">
                     ประวัติส่วนตัว
                 </a>
 
                 <a href="education.html">
-                    การศึกษา
+                    ประวัติ
                 </a>
 
                 <a href="activities.html">
@@ -50,160 +77,500 @@
                     ติดต่อ
                 </a>
 
-            </div>
+            </nav>
+
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="เปิดเมนู"
+            >
+                ☰
+            </button>
 
         </div>
 
-    </nav>
+    </header>
 
 
-    <!-- Page Header -->
+
+    <!-- =================================
+         PAGE HEADER
+    ================================== -->
 
     <section class="page-header">
 
         <p>ABOUT ME</p>
 
-        <h1>ประวัติส่วนตัว</h1>
+        <h1>
+            ประวัติส่วนตัว
+        </h1>
 
         <span>
-            About Me
+            Get to Know Me
         </span>
 
     </section>
 
 
-    <!-- Profile -->
 
-    <section class="profile-section section">
+    <!-- =================================
+         PROFILE INTRO
+    ================================== -->
 
-        <div class="profile-photo">
-
-            <img src="images/profile.jpg" alt="รูปโปรไฟล์">
-
-        </div>
+    <main>
 
 
-        <div class="profile-content">
+        <section class="section profile-section">
 
-            <p class="blue-label">
-                INTRODUCTION
-            </p>
 
-            <h2>
-                สวัสดีค่ะ ฉันชื่อ
-                <span>ชื่อของคุณ</span>
-            </h2>
+            <!-- Profile Image -->
+
+            <div class="profile-photo">
+
+                <img
+                    src="images/profile.jpg"
+                    alt="รูปโปรไฟล์ของชื่อของคุณ"
+                >
+
+            </div>
+
+
+
+            <!-- Profile Information -->
+
+            <div class="profile-content">
+
+                <p class="blue-label">
+                    WHO AM I?
+                </p>
+
+                <h2>
+
+                    สวัสดีค่ะ
+                    <br>
+
+                    ฉันชื่อ
+                    <span>ชื่อของคุณ</span>
+
+                </h2>
+
+
+                <p>
+
+                    ปัจจุบันกำลังศึกษาอยู่ในระดับชั้น
+                    มัธยมศึกษาปีที่ 6
+                    ฉันเป็นคนที่มีความตั้งใจในการเรียนรู้
+                    ชอบค้นหาประสบการณ์ใหม่ ๆ
+                    และมุ่งมั่นที่จะพัฒนาตนเองอยู่เสมอ
+
+                </p>
+
+
+                <p>
+
+                    ฉันเชื่อว่าทุกประสบการณ์ที่ได้พบเจอ
+                    ไม่ว่าจะเป็นการเรียน การทำกิจกรรม
+                    หรือการทำงานร่วมกับผู้อื่น
+                    ล้วนเป็นโอกาสที่ทำให้เราเติบโต
+                    และเข้าใจตัวเองมากขึ้น
+
+                </p>
+
+
+                <!-- Personal Information -->
+
+                <div class="personal-info">
+
+
+                    <div>
+
+                        <span>
+                            ชื่อ - นามสกุล
+                        </span>
+
+                        <strong>
+                            ชื่อ นามสกุล
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            ชื่อเล่น
+                        </span>
+
+                        <strong>
+                            ชื่อเล่น
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            วันเกิด
+                        </span>
+
+                        <strong>
+                            วัน / เดือน / ปี
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            อายุ
+                        </span>
+
+                        <strong>
+                            17 - 18 ปี
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            ระดับการศึกษา
+                        </span>
+
+                        <strong>
+                            มัธยมศึกษาปีที่ 6
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            โรงเรียน
+                        </span>
+
+                        <strong>
+                            ชื่อโรงเรียน
+                        </strong>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             MY PERSONALITY
+        ================================== -->
+
+        <section class="quick-section">
+
+
+            <div class="section-container">
+
+
+                <div class="section-heading center">
+
+                    <span>
+                        MY PERSONALITY
+                    </span>
+
+                    <h2>
+                        ตัวตนของฉัน
+                    </h2>
+
+                </div>
+
+
+                <div class="quick-grid">
+
+
+                    <div class="quick-card">
+
+                        <div class="quick-number">
+                            01
+                        </div>
+
+                        <div class="quick-icon">
+                            ♡
+                        </div>
+
+                        <h3>
+                            ตั้งใจเรียนรู้
+                        </h3>
+
+                        <p>
+                            ฉันเปิดรับความรู้ใหม่ ๆ
+                            และพยายามพัฒนาตัวเอง
+                            ให้ดีขึ้นอยู่เสมอ
+                        </p>
+
+                        <span class="quick-arrow">
+                            ✦
+                        </span>
+
+                    </div>
+
+
+                    <div class="quick-card">
+
+                        <div class="quick-number">
+                            02
+                        </div>
+
+                        <div class="quick-icon">
+                            ✧
+                        </div>
+
+                        <h3>
+                            มีความรับผิดชอบ
+                        </h3>
+
+                        <p>
+                            เมื่อได้รับมอบหมายงาน
+                            ฉันพยายามทำหน้าที่ของตัวเอง
+                            ให้ดีที่สุด
+                        </p>
+
+                        <span class="quick-arrow">
+                            ✦
+                        </span>
+
+                    </div>
+
+
+                    <div class="quick-card">
+
+                        <div class="quick-number">
+                            03
+                        </div>
+
+                        <div class="quick-icon">
+                            ◎
+                        </div>
+
+                        <h3>
+                            ทำงานร่วมกับผู้อื่น
+                        </h3>
+
+                        <p>
+                            ฉันให้ความสำคัญกับการรับฟัง
+                            ความคิดเห็นและการทำงานเป็นทีม
+                        </p>
+
+                        <span class="quick-arrow">
+                            ✦
+                        </span>
+
+                    </div>
+
+
+                    <div class="quick-card">
+
+                        <div class="quick-number">
+                            04
+                        </div>
+
+                        <div class="quick-icon">
+                            ↑
+                        </div>
+
+                        <h3>
+                            พัฒนาตัวเอง
+                        </h3>
+
+                        <p>
+                            พร้อมเรียนรู้จากข้อผิดพลาด
+                            และนำประสบการณ์มาต่อยอด
+                        </p>
+
+                        <span class="quick-arrow">
+                            ✦
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             INTEREST
+        ================================== -->
+
+        <section class="section">
+
+
+            <div class="section-heading center">
+
+                <span>
+                    MY INTEREST
+                </span>
+
+                <h2>
+                    ความสนใจของฉัน
+                </h2>
+
+            </div>
+
+
+            <div class="quick-grid">
+
+
+                <div class="quick-card">
+
+                    <div class="quick-icon">
+                        💻
+                    </div>
+
+                    <h3>
+                        เทคโนโลยี
+                    </h3>
+
+                    <p>
+                        สนใจการใช้เทคโนโลยี
+                        และการสร้างสรรค์สิ่งใหม่ ๆ
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <div class="quick-icon">
+                        🎨
+                    </div>
+
+                    <h3>
+                        การออกแบบ
+                    </h3>
+
+                    <p>
+                        สนใจการออกแบบ
+                        และการนำเสนอข้อมูลอย่างสร้างสรรค์
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <div class="quick-icon">
+                        📚
+                    </div>
+
+                    <h3>
+                        การเรียนรู้
+                    </h3>
+
+                    <p>
+                        ชอบศึกษาความรู้ใหม่
+                        และเรียนรู้จากประสบการณ์
+                    </p>
+
+                </div>
+
+
+                <div class="quick-card">
+
+                    <div class="quick-icon">
+                        🌱
+                    </div>
+
+                    <h3>
+                        การพัฒนาตนเอง
+                    </h3>
+
+                    <p>
+                        ให้ความสำคัญกับการพัฒนาทักษะ
+                        และเตรียมพร้อมสำหรับอนาคต
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================
+             FUTURE GOAL
+        ================================== -->
+
+        <section class="quote-section">
+
+            <div class="quote-container">
+
+                <div class="quote-symbol">
+                    “
+                </div>
+
+                <p>
+                    ฉันไม่ได้มอง Portfolio
+                    เป็นเพียงการรวบรวมผลงาน
+                    แต่เป็นเรื่องราวของการเรียนรู้
+                    และการเติบโตของตัวฉัน
+                </p>
+
+                <span>
+                    MY JOURNEY • MY DREAM • MY FUTURE
+                </span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- =================================
+         FOOTER
+    ================================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+
+                <span class="logo-symbol">
+                    ✦
+                </span>
+
+                PORTFOLIO
+
+            </div>
 
             <p>
-                ปัจจุบันกำลังศึกษาอยู่ในระดับชั้นมัธยมศึกษาปีที่ 6
-                ฉันเป็นคนที่มีความสนใจในการเรียนรู้สิ่งใหม่ ๆ
-                และชอบพัฒนาทักษะของตนเองผ่านการทำกิจกรรม
-                และประสบการณ์ต่าง ๆ
+                ขอบคุณที่เข้ามาทำความรู้จักกับฉัน
             </p>
 
+            <div class="footer-line"></div>
 
-            <!-- Personal Information -->
-
-            <div class="personal-info">
-
-                <div>
-                    <span>ชื่อ - นามสกุล</span>
-                    <strong>ชื่อ นามสกุล</strong>
-                </div>
-
-                <div>
-                    <span>ชื่อเล่น</span>
-                    <strong>ชื่อเล่น</strong>
-                </div>
-
-                <div>
-                    <span>ระดับการศึกษา</span>
-                    <strong>มัธยมศึกษาปีที่ 6</strong>
-                </div>
-
-                <div>
-                    <span>โรงเรียน</span>
-                    <strong>ชื่อโรงเรียน</strong>
-                </div>
-
-            </div>
+            <small>
+                © 2026 Portfolio by ชื่อของคุณ
+            </small>
 
         </div>
-
-    </section>
-
-
-    <!-- Interest -->
-
-    <section class="interest section">
-
-        <div class="section-title">
-
-            <p>MY INTEREST</p>
-
-            <h2>
-                ความสนใจของฉัน
-            </h2>
-
-        </div>
-
-
-        <div class="interest-grid">
-
-            <div class="interest-card">
-
-                <div>💻</div>
-
-                <h3>
-                    เทคโนโลยี
-                </h3>
-
-                <p>
-                    สนใจเทคโนโลยีและการพัฒนาเว็บไซต์
-                </p>
-
-            </div>
-
-
-            <div class="interest-card">
-
-                <div>📚</div>
-
-                <h3>
-                    การเรียนรู้
-                </h3>
-
-                <p>
-                    ชอบเรียนรู้สิ่งใหม่และพัฒนาตัวเอง
-                </p>
-
-            </div>
-
-
-            <div class="interest-card">
-
-                <div>🎨</div>
-
-                <h3>
-                    ความคิดสร้างสรรค์
-                </h3>
-
-                <p>
-                    สนใจการออกแบบและการสร้างสรรค์ผลงาน
-                </p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <footer>
-
-        <p>
-            © 2026 Portfolio by ชื่อของคุณ
-        </p>
 
     </footer>
 
