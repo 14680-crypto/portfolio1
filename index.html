@@ -1,146 +1,636 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portfolio ของนักเรียนชั้นมัธยมศึกษาปีที่ 6 สำหรับศึกษาต่อระดับมหาวิทยาลัย"
+    >
 
     <title>Portfolio | ชื่อของคุณ</title>
 
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- Google Font -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar">
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
         <div class="nav-container">
 
+
+            <!-- Logo -->
+
             <a href="index.html" class="logo">
-                PORTFOLIO
+
+                <span class="logo-symbol">✦</span>
+
+                <span>PORTFOLIO</span>
+
             </a>
 
-            <div class="nav-links">
-                <a href="index.html" class="active">หน้าหลัก</a>
-                <a href="profile.html">ประวัติส่วนตัว</a>
-                <a href="education.html">การศึกษา</a>
-                <a href="activities.html">ผลงาน</a>
-                <a href="contact.html">ติดต่อ</a>
-            </div>
 
-        </div>
-    </nav>
+            <!-- Menu -->
 
+            <nav class="nav-menu">
 
-    <!-- Hero Section -->
-    <section class="hero">
-
-        <div class="hero-content">
-
-            <p class="hero-small">
-                PORTFOLIO 2026
-            </p>
-
-            <h1>
-                สวัสดีค่ะ<br>
-                ฉันชื่อ <span>ชื่อของคุณ</span>
-            </h1>
-
-            <p class="hero-description">
-                นักเรียนชั้นมัธยมศึกษาปีที่ 6
-                ผู้ที่สนใจด้านการเรียนรู้ การพัฒนาตนเอง
-                และการสร้างสรรค์ผลงานใหม่ ๆ
-            </p>
-
-            <div class="hero-buttons">
-                <a href="profile.html" class="btn-primary">
-                    รู้จักฉันมากขึ้น
+                <a href="index.html" class="active">
+                    หน้าหลัก
                 </a>
 
-                <a href="activities.html" class="btn-outline">
-                    ดูผลงาน
+                <a href="profile.html">
+                    ประวัติส่วนตัว
                 </a>
-            </div>
+
+                <a href="education.html">
+                    ประวัติ
+                </a>
+
+                <a href="activities.html">
+                    ผลงาน
+                </a>
+
+                <a href="contact.html">
+                    ติดต่อ
+                </a>
+
+            </nav>
+
+
+            <!-- Mobile Menu Button -->
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="เปิดเมนู"
+            >
+                ☰
+            </button>
 
         </div>
 
+    </header>
 
-        <!-- Profile Image -->
-        <div class="hero-image">
 
-            <div class="image-circle">
-                <img src="images/profile.jpg" alt="รูปโปรไฟล์">
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <main>
+
+        <section class="hero">
+
+
+            <!-- Decorative Background -->
+
+            <div class="hero-decoration decoration-one"></div>
+
+            <div class="hero-decoration decoration-two"></div>
+
+
+            <!-- Hero Text -->
+
+            <div class="hero-content">
+
+
+                <div class="welcome-badge">
+
+                    <span>✦</span>
+
+                    WELCOME TO MY PORTFOLIO
+
+                </div>
+
+
+                <p class="hero-subtitle">
+                    PORTFOLIO 2026
+                </p>
+
+
+                <h1>
+
+                    สวัสดีค่ะ
+                    <br>
+
+                    ฉันชื่อ
+                    <span>ชื่อของคุณ</span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    นักเรียนชั้นมัธยมศึกษาปีที่ 6
+                    <br>
+
+                    ผู้ที่มีความมุ่งมั่นในการเรียนรู้
+                    พัฒนาตนเอง และก้าวไปสู่ความฝัน
+                    ในรั้วมหาวิทยาลัย
+
+                </p>
+
+
+                <!-- Buttons -->
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="profile.html"
+                        class="btn btn-primary"
+                    >
+
+                        รู้จักฉันมากขึ้น
+
+                        <span>→</span>
+
+                    </a>
+
+
+                    <a
+                        href="activities.html"
+                        class="btn btn-secondary"
+                    >
+
+                        ชมผลงาน
+
+                    </a>
+
+                </div>
+
+
+                <!-- Small Information -->
+
+                <div class="hero-info">
+
+                    <div>
+
+                        <strong>
+                            M.6
+                        </strong>
+
+                        <span>
+                            Student
+                        </span>
+
+                    </div>
+
+
+                    <div class="info-line"></div>
+
+
+                    <div>
+
+                        <strong>
+                            2026
+                        </strong>
+
+                        <span>
+                            Portfolio
+                        </span>
+
+                    </div>
+
+
+                    <div class="info-line"></div>
+
+
+                    <div>
+
+                        <strong>
+                            ✦
+                        </strong>
+
+                        <span>
+                            My Journey
+                        </span>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="floating-card">
-                <span>✦</span>
-                My Portfolio
+
+
+            <!-- =========================
+                 PROFILE IMAGE
+            ========================== -->
+
+            <div class="hero-visual">
+
+
+                <!-- Background Shape -->
+
+                <div class="visual-shape"></div>
+
+
+                <!-- Image -->
+
+                <div class="profile-frame">
+
+                    <div class="profile-image">
+
+                        <img
+                            src="images/profile.jpg"
+                            alt="รูปโปรไฟล์ของชื่อของคุณ"
+                        >
+
+                    </div>
+
+                </div>
+
+
+                <!-- Floating Card -->
+
+                <div class="floating-card card-top">
+
+                    <span class="floating-icon">
+                        ✦
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            My Journey
+                        </strong>
+
+                        <small>
+                            Learning & Growing
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card card-bottom">
+
+                    <span>
+                        🎓
+                    </span>
+
+                    <div>
+
+                        <strong>
+                            Future
+                        </strong>
+
+                        <small>
+                            University Student
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Decorative Circle -->
+
+                <div class="small-circle circle-one"></div>
+
+                <div class="small-circle circle-two"></div>
+
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    <!-- Introduction -->
-    <section class="intro section">
 
-        <div class="section-title">
-            <p>ABOUT ME</p>
-            <h2>ยินดีที่ได้รู้จัก</h2>
-        </div>
+        <!-- =========================
+             INTRODUCTION
+        ========================== -->
 
-        <div class="intro-box">
+        <section class="home-introduction">
+
+
+            <div class="section-container">
+
+
+                <div class="section-heading">
+
+                    <span>
+                        ABOUT MY PORTFOLIO
+                    </span>
+
+                    <h2>
+                        ตัวตน ความตั้งใจ
+                        <br>
+                        และเส้นทางสู่อนาคต
+                    </h2>
+
+                </div>
+
+
+                <div class="intro-content">
+
+
+                    <div class="intro-number">
+                        01
+                    </div>
+
+
+                    <div class="intro-text">
+
+                        <p>
+
+                            Portfolio เล่มนี้จัดทำขึ้นเพื่อรวบรวม
+                            ตัวตน ประสบการณ์ ความสามารถ
+                            ผลงาน และกิจกรรมที่สะท้อนถึงความตั้งใจ
+                            และพัฒนาการของฉันตลอดช่วงการเรียน
+
+                        </p>
+
+
+                        <p>
+
+                            ทุกประสบการณ์ที่ได้พบเจอ
+                            ล้วนเป็นส่วนหนึ่งของการเรียนรู้
+                            และเป็นแรงผลักดันให้ฉันพร้อมก้าวไปสู่
+                            เป้าหมายในการศึกษาต่อระดับมหาวิทยาลัย
+
+                        </p>
+
+
+                        <a
+                            href="profile.html"
+                            class="text-link"
+                        >
+
+                            อ่านเรื่องราวของฉัน
+
+                            <span>→</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             QUICK MENU
+        ========================== -->
+
+        <section class="quick-section">
+
+
+            <div class="section-container">
+
+
+                <div class="section-heading center">
+
+                    <span>
+                        EXPLORE MY PORTFOLIO
+                    </span>
+
+                    <h2>
+                        เรื่องราวของฉัน
+                    </h2>
+
+                </div>
+
+
+                <div class="quick-grid">
+
+
+                    <!-- Profile -->
+
+                    <a
+                        href="profile.html"
+                        class="quick-card"
+                    >
+
+                        <div class="quick-number">
+                            01
+                        </div>
+
+                        <div class="quick-icon">
+                            ♡
+                        </div>
+
+                        <h3>
+                            ประวัติส่วนตัว
+                        </h3>
+
+                        <p>
+                            ทำความรู้จักตัวตน
+                            ความสนใจ และเป้าหมายของฉัน
+                        </p>
+
+                        <span class="quick-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+
+                    <!-- Education -->
+
+                    <a
+                        href="education.html"
+                        class="quick-card"
+                    >
+
+                        <div class="quick-number">
+                            02
+                        </div>
+
+                        <div class="quick-icon">
+                            🎓
+                        </div>
+
+                        <h3>
+                            ประวัติ
+                        </h3>
+
+                        <p>
+                            เส้นทางการศึกษา
+                            และประสบการณ์ในรั้วโรงเรียน
+                        </p>
+
+                        <span class="quick-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+
+                    <!-- Activities -->
+
+                    <a
+                        href="activities.html"
+                        class="quick-card"
+                    >
+
+                        <div class="quick-number">
+                            03
+                        </div>
+
+                        <div class="quick-icon">
+                            ✧
+                        </div>
+
+                        <h3>
+                            ผลงาน & กิจกรรม
+                        </h3>
+
+                        <p>
+                            ผลงานและกิจกรรมที่ภาคภูมิใจ
+                            พร้อมสิ่งที่ได้รับจากประสบการณ์
+                        </p>
+
+                        <span class="quick-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+
+
+                    <!-- Contact -->
+
+                    <a
+                        href="contact.html"
+                        class="quick-card"
+                    >
+
+                        <div class="quick-number">
+                            04
+                        </div>
+
+                        <div class="quick-icon">
+                            ✉
+                        </div>
+
+                        <h3>
+                            ติดต่อ
+                        </h3>
+
+                        <p>
+                            ช่องทางสำหรับติดต่อ
+                            และพูดคุยกับฉัน
+                        </p>
+
+                        <span class="quick-arrow">
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             QUOTE
+        ========================== -->
+
+        <section class="quote-section">
+
+            <div class="quote-container">
+
+                <div class="quote-symbol">
+                    “
+                </div>
+
+                <p>
+                    Every experience is a lesson,
+                    every challenge is a step forward.
+                </p>
+
+                <span>
+                    — My Portfolio Journey —
+                </span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <div class="footer-logo">
+
+                <span class="logo-symbol">
+                    ✦
+                </span>
+
+                PORTFOLIO
+
+            </div>
+
 
             <p>
-                เว็บไซต์ Portfolio นี้จัดทำขึ้นเพื่อรวบรวมประวัติส่วนตัว
-                ประวัติการศึกษา ผลงาน กิจกรรม และความสามารถของฉัน
-                เพื่อแสดงถึงประสบการณ์และความตั้งใจในการเตรียมตัว
-                สำหรับการศึกษาต่อในระดับมหาวิทยาลัย
+                ขอบคุณที่เข้ามาทำความรู้จักกับฉัน
             </p>
 
+
+            <div class="footer-line"></div>
+
+
+            <small>
+                © 2026 Portfolio by ชื่อของคุณ
+            </small>
+
         </div>
 
-    </section>
-
-
-    <!-- Quick Information -->
-    <section class="quick-info section">
-
-        <div class="info-card">
-            <div class="info-icon">🎓</div>
-            <h3>Education</h3>
-            <p>ประวัติการศึกษา</p>
-        </div>
-
-        <div class="info-card">
-            <div class="info-icon">🏆</div>
-            <h3>Activities</h3>
-            <p>ผลงานและกิจกรรม</p>
-        </div>
-
-        <div class="info-card">
-            <div class="info-icon">📱</div>
-            <h3>Contact</h3>
-            <p>ช่องทางการติดต่อ</p>
-        </div>
-
-    </section>
-
-
-    <!-- Footer -->
-    <footer>
-        <p>
-            © 2026 Portfolio by ชื่อของคุณ
-        </p>
     </footer>
 
+
+
+    <!-- JavaScript -->
 
     <script src="js/script.js"></script>
 
 </body>
+
 </html>
