@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        .info-item {
+            background-color: var(--accent);
+            padding: 1.2rem;
+            border-radius: 12px;
+        }
+        .info-item strong {
+            color: var(--primary-dark);
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">MY PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="about.html" class="active">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">ประวัติการศึกษา</a></li>
+                <li><a href="portfolio.html">ผลงาน/กิจกรรม</a></li>
+                <li><a href="contact.html">ติดต่อ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card">
+            <h1>ประวัติส่วนตัว (About Me)</h1>
+            <p style="margin-bottom: 1.5rem;">ข้อมูลเบื้องต้นและความคุ้นเคยเกี่ยวกับตัวฉัน</p>
+            
+            <div class="info-grid">
+                <div class="info-item">
+                    <strong>ชื่อ-นามสกุล:</strong>
+                    <span>นาย/นางสาว สมชาย ใจดี</span>
+                </div>
+                <div class="info-item">
+                    <strong>ชื่อเล่น:</strong>
+                    <span>ฟ้า</span>
+                </div>
+                <div class="info-item">
+                    <strong>วัน/เดือน/ปีเกิด:</strong>
+                    <span>1 มกราคม 2551</span>
+                </div>
+                <div class="info-item">
+                    <strong>แผนการเรียน:</strong>
+                    <span>วิทยาศาสตร์ - คณิตศาสตร์</span>
+                </div>
+                <div class="info-item">
+                    <strong>คติประจำใจ:</strong>
+                    <span>"ความพยายามไม่เคยทำร้ายคนที่มีความตั้งใจ"</span>
+                </div>
+                <div class="info-item">
+                    <strong>งานอดิเรก:</strong>
+                    <span>อ่านหนังสือ, ฝึกเขียนโค้ด, ฟังเพลง</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© Portfolio ชั้นมัธยมศึกษาปีที่ 6 | พัฒนาด้วย GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
 
