@@ -1,404 +1,68 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta
-        name="description"
-        content="ช่องทางการติดต่อ Portfolio"
-    >
-
-    <title>ติดต่อ | Portfolio</title>
-
-
-    <!-- Google Fonts -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600&family=Playfair+Display:wght@500;600&display=swap"
-        rel="stylesheet"
-    >
-
-
-    <link rel="stylesheet" href="css/style.css">
-
+    <title>ช่องทางการติดต่อ | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+        .contact-item {
+            background-color: var(--accent);
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+        .contact-item h3 {
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+        }
+    </style>
 </head>
-
-
 <body>
 
-
-    <!-- =================================
-         NAVIGATION
-    ================================== -->
-
-    <header class="navbar">
-
-        <div class="nav-container">
-
-            <a href="index.html" class="logo">
-
-                <span class="logo-symbol">
-                    ✦
-                </span>
-
-                PORTFOLIO
-
-            </a>
-
-
-            <nav class="nav-menu">
-
-                <a href="index.html">
-                    หน้าหลัก
-                </a>
-
-                <a href="profile.html">
-                    ประวัติส่วนตัว
-                </a>
-
-                <a href="education.html">
-                    ประวัติ
-                </a>
-
-                <a href="activities.html">
-                    ผลงาน
-                </a>
-
-                <a href="contact.html" class="active">
-                    ติดต่อ
-                </a>
-
-            </nav>
-
-
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                aria-label="เปิดเมนู"
-            >
-                ☰
-            </button>
-
-        </div>
-
+    <header>
+        <nav>
+            <div class="logo">MY PORTFOLIO</div>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="about.html">ประวัติส่วนตัว</a></li>
+                <li><a href="education.html">ประวัติการศึกษา</a></li>
+                <li><a href="portfolio.html">ผลงาน/กิจกรรม</a></li>
+                <li><a href="contact.html" class="active">ติดต่อ</a></li>
+            </ul>
+        </nav>
     </header>
 
-
-
-    <!-- =================================
-         PAGE HEADER
-    ================================== -->
-
-    <section class="page-header">
-
-        <p>
-            CONTACT ME
-        </p>
-
-        <h1>
-            ช่องทางการติดต่อ
-        </h1>
-
-        <span>
-            Let's Connect
-        </span>
-
-    </section>
-
-
-
     <main>
-
-
-        <!-- =================================
-             CONTACT SECTION
-        ================================== -->
-
-        <section class="section">
-
+        <div class="card">
+            <h1>ช่องทางการติดต่อ (Contact)</h1>
+            <p>สามารถติดต่อเพิ่มเติมได้ทางช่องทางด้านล่างนี้ครับ/ค่ะ</p>
 
             <div class="contact-box">
-
-
-                <!-- Contact Introduction -->
-
-                <div class="contact-intro">
-
-                    <p class="blue-label">
-                        GET IN TOUCH
-                    </p>
-
-
-                    <h2>
-
-                        ขอบคุณที่เข้ามาชม
-                        <br>
-
-                        Portfolio ของฉัน
-
-                    </h2>
-
-
-                    <p>
-
-                        หากต้องการติดต่อ
-                        สอบถามข้อมูลเพิ่มเติม
-                        หรือพูดคุยเกี่ยวกับผลงาน
-                        สามารถติดต่อฉัน
-                        ผ่านช่องทางด้านล่างได้เลยค่ะ
-
-                    </p>
-
+                <div class="contact-item">
+                    <h3>📧 อีเมล (Email)</h3>
+                    <p>yourname@email.com</p>
                 </div>
-
-
-
-                <!-- Contact Information -->
-
-                <div class="contact-list">
-
-
-                    <!-- Email -->
-
-                    <a
-                        href="mailto:your@email.com"
-                        class="contact-item"
-                    >
-
-                        <div class="contact-icon">
-                            ✉
-                        </div>
-
-
-                        <div>
-
-                            <span>
-                                EMAIL
-                            </span>
-
-                            <strong>
-                                your@email.com
-                            </strong>
-
-                        </div>
-
-                    </a>
-
-
-
-                    <!-- Instagram -->
-
-                    <a
-                        href="https://instagram.com/"
-                        class="contact-item"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-
-                        <div class="contact-icon">
-                            ◎
-                        </div>
-
-
-                        <div>
-
-                            <span>
-                                INSTAGRAM
-                            </span>
-
-                            <strong>
-                                @yourusername
-                            </strong>
-
-                        </div>
-
-                    </a>
-
-
-
-                    <!-- Facebook -->
-
-                    <a
-                        href="#"
-                        class="contact-item"
-                    >
-
-                        <div class="contact-icon">
-                            f
-                        </div>
-
-
-                        <div>
-
-                            <span>
-                                FACEBOOK
-                            </span>
-
-                            <strong>
-                                ชื่อ Facebook
-                            </strong>
-
-                        </div>
-
-                    </a>
-
-
-
-                    <!-- Phone -->
-
-                    <div class="contact-item">
-
-                        <div class="contact-icon">
-                            ☎
-                        </div>
-
-
-                        <div>
-
-                            <span>
-                                PHONE
-                            </span>
-
-                            <strong>
-                                0X-XXX-XXXX
-                            </strong>
-
-                        </div>
-
-                    </div>
-
-
+                <div class="contact-item">
+                    <h3>📞 เบอร์โทรศัพท์ (Phone)</h3>
+                    <p>08x-xxx-xxxx</p>
                 </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =================================
-             CONTACT MESSAGE
-        ================================== -->
-
-        <section class="quote-section">
-
-
-            <div class="quote-container">
-
-                <div class="quote-symbol">
-                    “
+                <div class="contact-item">
+                    <h3>🌐 โซเชียลมีเดีย (Social)</h3>
+                    <p>Facebook: Your Name<br>Instagram: @your_ig</p>
                 </div>
-
-
-                <p>
-
-                    Thank you for taking the time
-                    to know my story.
-
-                </p>
-
-
-                <span>
-                    SEE YOU IN THE NEXT CHAPTER
-                </span>
-
             </div>
-
-
-        </section>
-
-
-
-        <!-- =================================
-             FINAL CTA
-        ================================== -->
-
-        <section class="section">
-
-
-            <div class="section-heading center">
-
-                <span>
-                    MY PORTFOLIO
-                </span>
-
-                <h2>
-                    แล้วพบกันในบทต่อไป
-                </h2>
-
-            </div>
-
-
-            <div style="text-align: center; margin-top: 30px;">
-
-                <a
-                    href="index.html"
-                    class="btn btn-primary"
-                >
-
-                    กลับหน้าหลัก
-
-                    <span>
-                        →
-                    </span>
-
-                </a>
-
-            </div>
-
-        </section>
-
-
+        </div>
     </main>
 
-
-
-    <!-- =================================
-         FOOTER
-    ================================== -->
-
-    <footer class="footer">
-
-        <div class="footer-container">
-
-            <div class="footer-logo">
-
-                <span class="logo-symbol">
-                    ✦
-                </span>
-
-                PORTFOLIO
-
-            </div>
-
-
-            <p>
-                Thank you for visiting my portfolio.
-            </p>
-
-
-            <div class="footer-line"></div>
-
-
-            <small>
-                © 2026 Portfolio by ชื่อของคุณ
-            </small>
-
-        </div>
-
+    <footer>
+        <p>© Portfolio ชั้นมัธยมศึกษาปีที่ 6 | พัฒนาด้วย GitHub Pages</p>
     </footer>
 
-
-    <script src="js/script.js"></script>
-
 </body>
-
 </html>
